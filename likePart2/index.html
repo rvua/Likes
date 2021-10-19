@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- STRUCTURE -->
+    
+    <!-- nav start -->
+    <nav>
+        <!-- container align-items center begins -->
+        <div class="nav-container">
+            <h1 class="nav-h1">Network</h1>
+        </div>
+        <!-- container align-items center ends-->
+    </nav>
+    <!-- nav ends -->
+    
+    <h1 class="your-feed-h1">Your Feed</h1>
+    
+    <!-- containter align-items flex start begins -->
+    <div class="main-container">
+        
+        <!-- left column begins -->
+        <div class="left-column">
+            <!-- Add an avatar begins -->
+            <div class="profile">
+                <img src="./user-circle.png" alt="image">
+                <p class="add-avatar"><a href="#">Add an avatar</a></p>
+                <h2 class="avatar-name">James Doe</h2>
+            </div>
+            <!-- Add an avatar ends -->
+        </div>
+        <!-- left column ends -->
+
+        <!-- right column begins -->
+        <div class= right-column>
+            <!-- card 1 begins -->
+            <div class="card">
+                <div class="top-card-content">
+                    <h1>Neil M</h1>
+                    <h2 id="count">9 like(s)</h2>
+                    <button class="btn" onclick="addLike()">Like</button>
+                </div>
+                <div class="bottom-card-content">
+                    <p class="entry">I just set up this new discord bot, let me <br> know what you all
+                    think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <!-- card 1 ends -->
+
+            <!-- card 2 begins -->
+            <div class="card2">
+                <div class="top-card-content">
+                    <h1>Nichole K</h1>
+                    <h2 id="count2" class="card2-likes">12 like(s)</h2>
+                    <button class="btn" onclick="addLike2()">Like</button>
+                </div>
+                <div class="bottom-card-content">
+                    <p class="entry">Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <!-- card 2 ends -->
+
+            <!-- card 3 begins -->
+            <div class="card3">
+                <div class="top-card-content">
+                    <h1>Jim R</h1>
+                    <h2 id="count3">9 like(s)</h2>
+                    <button class="btn" onclick="addLike3()">Like</button>
+                </div>
+                <div class="bottom-card-content">
+                    <p class="entry">I can't stop listening to the <a href="#">new album</a>. <br> Who else is liking it?</p>
+                </div>
+            </div>
+            <!-- card 3 ends -->
+        </div>
+        <!-- right column ends -->
+    </div>
+    <!-- containter align-items flex start ends -->
+
+    <script src="./script.js"></script>
+</body>
+</html>
